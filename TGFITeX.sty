@@ -1,0 +1,41 @@
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{tikz} % Required for creating graphics programmatically (can be removed if not used)
+\usetikzlibrary{arrows} % Required for fancy arrows in TiKZ graphics (can be removed if not used)
+\usepackage{pgfplots} % Required for drawing high--quality function plots (can be removed if not used)
+\pgfplotsset{compat=newest}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Next you have examples of admissable citation styles; we recomend using the authoryear-comp citation style (which resembles Harvard); don't forget to only uncomment one
+%
+
+% authoryear-comp: recommended citation style (e.g. (Buendía, 1860), (Buendía 1910, Arcadio 1940))
+% \usepackage[style=authoryear-comp,backend=biber]{biblatex} % Bibtex backend with the authoryear-comp citation style (authoryear citations, bibliography ordered alphabetically)
+
+% numeric citation style (e.g. [1], [1-3])
+%\usepackage[style=numeric-comp,sorting=none,backend=biber]{biblatex} % Bibtex backend with the numeric-comp citation style (numeric citations, bibliography ordered by appearance)
+
+% alphabetic citation style (e.g. [Buendía10], [Buendía10, Arcadio40])
+%\usepackage[style=alphabetic,sorting=none,backend=biber]{biblatex} % Bibtex backend with the alphabetic citation style (alphabetic citations, bibliography ordered by appearance)
+
+\usepackage[style=authoryear-comp,backend=biber]{biblatex}
+\addbibresource{mainbibliography.bib}
+
+% These lines introduced in order to remove month and day from bibliography entries
+\AtEveryBibitem{\clearfield{month}}
+\AtEveryBibitem{\clearfield{day}}
+
+% Load information of the document
+\input{main-info}
+
+\makeglossaries % build the glossary
+
+\hypersetup{pdftitle=\ttitle} % Set the PDF's title to your title
+\hypersetup{pdfkeywords=\keywordnames} % Set the PDF's keywords to your keywords
+% Because there are macros involved for authors and supervisors these are not included in the pdf document
+

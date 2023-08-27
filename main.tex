@@ -1,0 +1,106 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Template para la Facultad de Ingeniería (Universidad Nacional de Asunción)
+%
+% Macros fueron incorporados a los ya existentes en el template de TMDEI Thesis Class 
+% File Version 0.1 (Dec/2015) de Nuno Pereira (nap@isep.ipp.pt) y
+% Paulo Baltarejo (pbs@isep.ipp.pt), de manera a cumplir con el formato
+% solicitado por la institución.
+% 
+% MIT License Copyright (c) 2023 Enrique Ibarra
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT CLASS SETTINGS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+12pt, % The default document font size, options: 10pt, 11pt, 12pt
+%oneside, % Two side (alternating margins) for binding by default, uncomment to switch to one side (for drafting/reading purposes)
+spanish, % only accepts spanish and english, an error will be generated otherwise
+doublespacing, % Single line spacing, alternatives: onehalfspacing or doublespacing (for drafting/reading purposes)
+%draft, % Uncomment to enable draft mode (no pictures, no links, overfull hboxes indicated)
+%nolistspacing, % If the document is onehalfspacing or doublespacing, uncomment this to set spacing in lists to single
+liststotoc, % Uncomment to add the list of figures/tables/etc to the table of contents (not recommended)
+%toctotoc, % Uncomment to add the main table of contents to the table of contents (not recommended)
+parskip, % Add space between paragraphs (recommended)
+%nohyperref, % Uncomment to not load the hyperref package (not recommended)
+nohyperreflinkcolor, % hyperref links are not colored (comment to color links, for example to produce an electronic-only version)
+]{TGFITeX} % The class file specifying the document structure
+
+
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\usepackage{TGFITeX}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT STARTS
+%----------------------------------------------------------------------------------------
+
+
+\begin{document}
+
+
+
+%----------------------------------------------------------------------------------------
+%	FRONT MATTER
+%----------------------------------------------------------------------------------------
+
+% Include the frontmatter of your thesis here
+\input{frontmatter/frontmatter}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	MAIN BODY
+%----------------------------------------------------------------------------------------
+
+% Include the chapters of the thesis as separate folder for each chapter
+% Uncomment the lines as you write the chapters
+
+\input{ch1/chapter1}
+\input{ch2/chapter2}
+\input{ch3/chapter3}
+%\input{ch4/chapter4}
+%\input{ch5/chapter5}
+
+
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%----------------------------------------------------------------------------------------
+
+\appendix % Cue to tell LaTeX that the following "chapters" are Appendices
+
+% Include the appendices of the thesis as separate files from the Appendices folder
+% Uncomment the lines as you write the Appendices
+
+\input{appendices/appendixA}
+%\input{appendices/appendixB}
+%\input{appendices/appendixC}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\printbibliography[heading=bibintoc]
+
+
+\end{document}
