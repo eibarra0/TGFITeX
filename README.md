@@ -28,3 +28,7 @@ Make sure you have the following tools installed: **pdflatex**, **makeglossaries
 ## Who do I talk to? ##
 
 * Enrique Ibarra (through LinkedIn account)
+
+## Based on
+
+*   TMDEI Dissertation LaTeX Template [https://github.com/MEI-ISEP/tmdei-dissertation-template](https://github.com/MEI-ISEP/tmdei-dissertation-template)
