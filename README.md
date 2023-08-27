@@ -1,3 +1,13 @@
+TGFITeX
+========================
+
+> Template de Tesis para la Facultad de Ingeniería de la Universidad Nacional de Asunción (UNA)
+
+[![License MIT](http://img.shields.io/badge/license-MIT-brightgreen.svg)](license.md)
+
+## Autor
+*   Enrique Ibarra
+
 # README #
 
 *TGFITeX LaTeX Template - Version 0.1 (July/2023)*
