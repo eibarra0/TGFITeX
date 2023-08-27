@@ -8,8 +8,7 @@ TGFITeX
 ## Autor
 *   Enrique Ibarra
 
-# README #
-
+## Description
 *TGFITeX LaTeX Template - Version 0.1 (July/2023)*
 
 **You can fork this repository to make your own dissertation based on this template.**
