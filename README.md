@@ -1,7 +1,7 @@
 TGFITeX
 ========================
 
-> Template de Tesis para la Facultad de Ingeniería de la Universidad Nacional de Asunción (UNA)
+> Template de Tesis para la Facultad de Ingeniería de la Universidad Nacional de Asunción (UNA), siguiendo formatos de la Resolución 1255/2005.
 
 [![License MIT](http://img.shields.io/badge/license-MIT-brightgreen.svg)](license.md)
 
