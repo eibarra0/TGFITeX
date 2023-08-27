@@ -4,7 +4,7 @@
 
 **You can fork this repository to make your own dissertation based on this template.**
 
-This template is based on TMDEI Dissertation: LaTeX Template - Version 0.1 (Dec/2015) by Nuno Pereira and Paulo Baltarejo (DEI/ISEP), downloaded from [Overleaf](https://www.overleaf.com) . Adapted to FI/UNA style by Enrique Ibarra.
+This template is based on TMDEI Dissertation: LaTeX Template - Version 0.1 (Dec/2015) by Nuno Pereira and Paulo Baltarejo (DEI/ISEP), downloaded from [Overleaf](https://www.overleaf.com). Adapted to FI/UNA style by Enrique Ibarra.
 
 ## How do I get set up? ##
 
