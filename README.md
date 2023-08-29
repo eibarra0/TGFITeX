@@ -11,8 +11,6 @@ TGFITeX
 ### Description
 *TGFITeX LaTeX Template - Version 0.1 (July/2023)*
 
-**You can fork this repository to make your own dissertation based on this template.**
-
 This template is based on TMDEI Dissertation: LaTeX Template - Version 0.1 (Dec/2015) by Nuno Pereira and Paulo Baltarejo (DEI/ISEP), downloaded from [Overleaf](https://www.overleaf.com). Adapted to FI/UNA style by Enrique Ibarra.
 
 ### How do I get set up? ##
@@ -23,6 +21,5 @@ LaTeX is available for many systems including Windows, Linux and Mac OS X. Check
 
 You can contact the author through the LinkedIn account for any type of queries.
 
-### Based on
-
+A repository in GitHub of the base template can be found in:
 *   TMDEI Dissertation LaTeX Template [https://github.com/MEI-ISEP/tmdei-dissertation-template](https://github.com/MEI-ISEP/tmdei-dissertation-template)
