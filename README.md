@@ -17,15 +17,11 @@ This template is based on TMDEI Dissertation: LaTeX Template - Version 0.1 (Dec/
 
 ### How do I get set up? ##
 
-Just fork the repository and use it. You will need LaTeX tools installed in your system, with the packages needed by the template.
-
-#### LaTeX Distribution
+You can fork the repository and use it locally, but any modification to improve the format will be warmly welcome after approval by the owner. You will need LaTeX tools installed in your system, or opt for other online solutions.
 
 LaTeX is available for many systems including Windows, Linux and Mac OS X. Check the webpage for the LaTex project for more information: <https://latex-project.org/ftp.html>.
 
-### Who do I talk to? ##
-
-* Enrique Ibarra (through LinkedIn account)
+You can contact the author through the LinkedIn account for any type of queries.
 
 ### Based on
 
