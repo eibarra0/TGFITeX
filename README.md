@@ -17,7 +17,7 @@ This template is based on TMDEI Dissertation: LaTeX Template - Version 0.1 (Dec/
 
 ### How do I get set up? ##
 
-You can fork the repository and use it locally, but any modification to improve the format will be warmly welcomed after approval by the owner. You will need LaTeX tools installed in your system, or opt for other online solutions.
+You can fork the repository and use it locally, but any modification to improve the format will be warmly welcomed after approval by the owner. You will need LaTeX tools installed in your system, or opt for other in-cloud solutions.
 
 LaTeX is available for many systems including Windows, Linux and Mac OS X. Check the webpage for the LaTex project for more information: <https://latex-project.org/ftp.html>.
 
